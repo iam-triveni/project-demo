@@ -28,7 +28,7 @@
 28:         run: nuget restore project-demo.sln  # 🔧 Update this to your solution file
 29: 
 30:       - name: Publish to folder
-31:         run: msbuild project-demo.sln /p:DeployOnBuild=true /p:PublishDir="published\\"  # 🔧 Simplified and updated path
+31:         run: msbuild project-demo.sln  
 32: 
 33:       - name: Upload artifact for deployment job
 34:         uses: actions/upload-artifact@v4
