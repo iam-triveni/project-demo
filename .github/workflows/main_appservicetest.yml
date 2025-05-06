@@ -3,7 +3,7 @@
  3: 
  4: name:"Build and deploy ASP app to Azure Web App - appservicetest"
  5: 
- 6: on:
+ 6: "on":
  7:   push:
  8:     branches:
  9:       - main
